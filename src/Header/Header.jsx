@@ -14,7 +14,7 @@ const Header = () => {
                 <div className='md:flex items-center gap-8'>
 
                     <ul className={`md:flex max-sm:bg-[#108826] max-sm:text-white gap-8 text-[#108826] font-semibold absolute md:static 0 max-sm:pl-8 py-2 duration-500`}>
-                        <Link to='/taskadd'><li className='max-sm:p-3'>Task add</li></Link>
+                        <Link to='/'><li className='max-sm:p-3'>Task add</li></Link>
                         <Link to='/alltasks'><li className='max-sm:p-3'>All Tasks</li></Link>
 
                     </ul>
